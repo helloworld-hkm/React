@@ -1,0 +1,16 @@
+.list-digimon  {
+  display: flex;
+  gap: 20px;
+
+}
+
+.card{
+  border:1px solid black;
+  text-align: center;
+  padding: 20px;
+
+}
+.card img{ 
+ width: 100px;
+  
+}

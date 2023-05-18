@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    gap: 20px;
+    /* justify-content: right; */
+   list-style: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
