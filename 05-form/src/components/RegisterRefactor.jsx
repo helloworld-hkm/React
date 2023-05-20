@@ -4,10 +4,13 @@ function RegisterRefactor() {
     username: "",
     password: "",
   });
-  const handleChange = () => {
-    
+  const handleChange = (event) => {
+    setUser({
+      ...user,
+      [event.target.name]: event.target.value,
+    });
   };
-
+  console.log(user);
   return (
     <form>
       <h1>Register</h1>
@@ -24,7 +27,7 @@ function RegisterRefactor() {
         name="password"
         placeholder="password"
         value={user.password}
-        // onChange={inputPassword}
+        onChange={handleChange}
       />
       <br />
       <button>Register</button>

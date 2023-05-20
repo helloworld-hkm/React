@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <span>By FE Track</span>
+      <span>By Hkm</span>
     </footer>
   );
 }
