@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
 
-      {/* <Register /> */}
+      <Register />
       <RegisterRefactor/>
 
       {/* <Footer /> */}

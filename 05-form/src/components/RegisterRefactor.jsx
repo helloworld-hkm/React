@@ -13,7 +13,7 @@ function RegisterRefactor() {
   console.log(user);
   return (
     <form>
-      <h1>Register</h1>
+      <h1>Register refactor</h1>
       <input
         type="text"
         name="username"
